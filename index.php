@@ -11,7 +11,8 @@ session_start();
     <style>
       @import url('https://fonts.cdnfonts.com/css/sf-arch-rival');
       body{
-        background-image: url(https://i.pinimg.com/originals/54/62/01/5462015218ad4ccc8c546109e22ba1c3.png);
+        background-image: url(https://i.pinimg.com/originals/83/d3/1b/83d31b2d64df8798c177359290059f0b.png);
+        background-size: 70%;
       }
       .sf-arch-rival{
         font-family: 'SF Arch Rival', sans-serif;
@@ -62,7 +63,7 @@ session_start();
 <body class="bg-slate-900">
 
 <div class='flex items-center justify-center min-h-screen px-2'>
-    <div class='w-full max-w-md mx-auto bg-slate-900 rounded-3xl shadow-xl overflow-hidden'>
+    <div class='w-full max-w-md mx-auto border-solid border-2 border-yellow-500 backdrop-blur-md rounded-3xl shadow-xl overflow-hidden'>
         <div class='p-4 sm:p-6'>
           <div class='p-4 sm:p-6'>
             <p class='font-bold text-white text-center flex-items text-[22px] leading-7 mb-1'>Check Khodam yang ada dalam dirimu!</p>
@@ -81,7 +82,7 @@ session_start();
 
               <div class="mt-5">
                 <p class='font-bold text-white text-center flex-items text-[22px] leading-7 mb-1'>
-                  <span class="text-blue-500"><?php echo htmlspecialchars($nama); ?></span> Khodam kamu adalah <br>
+                  <span class="text-blue-500 sf-arch-rival"><?php echo htmlspecialchars($nama); ?></span> Khodam kamu adalah <br>
                   <span class="text-yellow-500 sf-arch-rival"><?php echo htmlspecialchars($kata_kunci); ?></span>
 
                 </p>
@@ -106,7 +107,7 @@ session_start();
   
     <?php endforeach; ?>
 <?php endif; ?>
-<footer class="w-full bg-gray-900">
+<footer class="w-full bg-gray-900 border-2 border-slate-500 rounded-3xl">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <!--Grid-->
             <div class="py-16 flex justify-between items-center flex-col gap-8 lg:flex-row">
